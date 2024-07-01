@@ -11,23 +11,27 @@
       <div>
         <h3>HOME</h3>
         <div class="score-box">
-          <h6 id="score-num">18</h6>
+          <h6 id="home-score" class="score">10</h6>
         </div>
         <div class="btns-box">
-          <button id="plus-one-point">+1</button>
-          <button id="plus-two-point">+2</button>
-          <button id="plus-three-point">+3</button>
+          <button id="plus-one-point" onclick="increaseOneToHome()">+1</button>
+          <button id="plus-two-point" onclick="increaseTwoToHome()">+2</button>
+          <button id="plus-three-point" onclick="increaseThreeToHome()">
+            +3
+          </button>
         </div>
       </div>
       <div>
         <h3>GUEST</h3>
         <div class="score-box">
-          <h6 id="score-num">10</h6>
+          <h6 id="guest-score" class="score">0</h6>
         </div>
         <div class="btns-box">
-          <button id="plus-one-point">+1</button>
-          <button id="plus-two-point">+2</button>
-          <button id="plus-three-point">+3</button>
+          <button id="plus-one-point" onclick="increaseOneToGuest()">+1</button>
+          <button id="plus-two-point" onclick="increaseTwoToGuest()">+2</button>
+          <button id="plus-three-point" onclick="increaseThreeToGuest()">
+            +3
+          </button>
         </div>
       </div>
     </div>

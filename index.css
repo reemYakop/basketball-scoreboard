@@ -27,6 +27,7 @@ h3 {
   line-height: 35.89px;
   text-align: center;
   color: #eeeeee;
+  margin-right: 11px;
 }
 
 .score-box {
@@ -40,7 +41,7 @@ h3 {
   background: #080001;
 }
 
-#score-num {
+.score {
   width: 117px;
   height: 120px;
   top: 125px;
@@ -52,9 +53,8 @@ h3 {
   font-weight: 400;
   line-height: 126.67px;
   text-align: center;
-
   color: #f94f6d;
-  margin: 0 18px 20px 26px;
+  margin: 18px 0 26px 20px;
 }
 
 .btns-box {
@@ -82,10 +82,15 @@ button {
   opacity: 0px;
   background: #1b244a;
   border: 2px solid #9aabd8;
-  padding: 7px 9px 9px 10.23px;
-  margin: 9px 0 11px 0px;
+  padding: 9px 7px 10.23px 9px;
+  /* margin: 0 9px 0px 11px; */
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.81px;
+}
+
+#plus-two-point {
+  margin-right: 9px;
+  margin-left: 11px;
 }
