@@ -1,5 +1,6 @@
 let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
+let currentScore = parseInt(homeScore.textContent)
 
 // increaseOne()
 // {
@@ -42,4 +43,9 @@ function increaseThreeToGuest() {
     let currentScore = parseInt(guestScore.textContent)
     let newGuestScore = currentScore +3
     guestScore.textContent = newGuestScore
+}
+
+function reset() {
+    homeScore.textContent = 0
+    guestScore.textContent = 0
 }
