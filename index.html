@@ -8,32 +8,70 @@
   </head>
   <body>
     <div class="container">
-      <div>
+      <div class="team">
         <h3>HOME</h3>
         <div class="score-box">
           <h6 id="home-score" class="score">0</h6>
         </div>
         <div class="btns-box">
-          <button id="plus-one-point" onclick="increaseOneToHome()">+1</button>
-          <button id="plus-two-point" onclick="increaseTwoToHome()">+2</button>
-          <button id="plus-three-point" onclick="increaseThreeToHome()">
+          <button
+            class="increase"
+            id="plus-one-point"
+            onclick="increaseOneToHome()"
+          >
+            +1
+          </button>
+          <button
+            class="increase"
+            id="plus-two-point"
+            onclick="increaseTwoToHome()"
+          >
+            +2
+          </button>
+          <button
+            class="increase"
+            id="plus-three-point"
+            onclick="increaseThreeToHome()"
+          >
             +3
           </button>
         </div>
       </div>
-      <div>
+      <div class="team">
         <h3>GUEST</h3>
         <div class="score-box">
           <h6 id="guest-score" class="score">0</h6>
         </div>
         <div class="btns-box">
-          <button id="plus-one-point" onclick="increaseOneToGuest()">+1</button>
-          <button id="plus-two-point" onclick="increaseTwoToGuest()">+2</button>
-          <button id="plus-three-point" onclick="increaseThreeToGuest()">
+          <button
+            class="increase"
+            id="plus-one-point"
+            onclick="increaseOneToGuest()"
+          >
+            +1
+          </button>
+          <button
+            class="increase"
+            id="plus-two-point"
+            onclick="increaseTwoToGuest()"
+          >
+            +2
+          </button>
+          <button
+            class="increase"
+            id="plus-three-point"
+            onclick="increaseThreeToGuest()"
+          >
             +3
           </button>
         </div>
       </div>
+    </div>
+    <div class="controls-box">
+      <button class="controls">Home Team Foul</button>
+      <button class="controls">Guest Team Foul</button>
+      <button class="controls">Change possesion</button>
+      <button class="controls">Next period</button>
     </div>
     <div class="new-game">
       <button id="new-game" onclick="reset()">NEW GAME</button>
